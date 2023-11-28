@@ -28,6 +28,9 @@ var age = 28;
 console.log("age", age);
 const city = 'New York';
 console.log('city', city);
+
+
+
 // Type Inference:
 // When we declare variables without explicitly specifying its type, it automatically gets assigned based on the value given to it.
 // When we declare variables without specifying its type, it automatically gets inferred by JS based on what we assign to it.
@@ -36,3 +39,41 @@ let num = 39;
 num = 'Hello World!';
 console.log(typeof num);
 
+
+
+// JS is baclward comptible programming language.
+// It means older code runs on newer version of javascript as well.
+// But new features added in each release may not work in old versions.
+
+
+
+
+// Var VS Let VS Const
+// var -> function scoped (global scope if declared outside functions).
+// let & const -> block scoped (local scope inside {} blocks).
+// Block Scoping Rule:
+// If you declare a variable using let or const inside another set of curly braces { }, it’s only available within those curly bra
+// A variable defined by let keyword is only accessible within the block where it has been declared. It is also available within nested blocks.
+// A new scope is created whenever there is a pair of curly braces {}.
+
+
+/* var--> is used to declare variable whicg value can or may change overtime in our program..
+1) variable declaration only is possible in var.
+    Example :
+    var firstName;  calid
+    firstName = "hello"
+2) Variable reDecleration is possible in var
+
+let--> is used to devlare variable which value can or may change overtime in our program
+1) variable declaration only is possible in let.
+    Example:
+    let lastName; //valid
+    lastName = "world"
+2) Variable reDecleration is not possible  in let
+
+Const --> is used to declare constant variables...
+1) variable declaration only is not possible in const.
+    Example:
+    const address; //invalid
+2) Variable reDecleration is not possible in const
+*/

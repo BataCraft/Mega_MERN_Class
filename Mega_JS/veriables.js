@@ -57,23 +57,72 @@ console.log(typeof num);
 // A new scope is created whenever there is a pair of curly braces {}.
 
 
-/* var--> is used to declare variable whicg value can or may change overtime in our program..
+/* var--> is used to declare variable which value can or may change overtime in our program..
 1) variable declaration only is possible in var.
     Example :
     var firstName;  calid
     firstName = "hello"
 2) Variable reDecleration is possible in var
+3) Variables declared with vare are  hoisted
+4) Var is function scoped
 
 let--> is used to devlare variable which value can or may change overtime in our program
 1) variable declaration only is possible in let.
     Example:
     let lastName; //valid
     lastName = "world"
-2) Variable reDecleration is not possible  in let
+2) Variable reDecleration is not possible  in let,
+3)  Variables declared with let are not hoisted,
+4) let is blocked Scope
 
 Const --> is used to declare constant variables...
 1) variable declaration only is not possible in const.
     Example:
     const address; //invalid
 2) Variable reDecleration is not possible in const
+3) Variables declared with const are not hoisted,
+4) Const is block scoped.
 */
+
+//Hosting ->
+// it is the default behavour of JS which raise the variable declared with var and fuctuon declaration to the top of ots scope.
+// console.log(address)
+// var address = "kathmandu"
+// console.log(address) 
+
+
+
+// Characerstics of variable in jasascript
+// 1. var and let are mutable variable
+// 2. const is immutable variable
+var name = 'John';
+console.log('name', typeof name);
+
+//Block scoping rule
+if (true) {
+    let x = 5;
+}
+console.log("x", typeof x);
+
+// Scope : it is the region where the vaiable is declared.
+//  There are two types of scope in javaScript
+// 1. global Scope
+//  2. Local Scope
+    //a. Function Scope
+    //b. Block Scope
+
+    //Block Scope: 
+    //It is created by code blocks such as if, for, while, switch etc..
+    //Example:
+
+
+
+// let y = 'hello'
+// function test()
+// {
+//     let y = 10
+//     console.log(y)
+
+// }
+// console.log(y);
+// test()

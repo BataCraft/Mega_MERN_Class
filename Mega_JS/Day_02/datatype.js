@@ -5,7 +5,13 @@
 //In Data Types: 
 // 1. Premative Data Types: These data thypes hold a value directly within their variable and do not need to be referenced by another object. 
 // Type of Premative Data Types are:-
-
+/* 
+a. Number,
+ex:
+ let num1 = 10;
+ let num2 = 38.093
+b. Sting: 
+*/
 
 
 //2 Non-Premative Data Types: These data types do not hold a value directly within their variable and need to be referenced by another object.

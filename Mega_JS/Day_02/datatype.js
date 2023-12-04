@@ -10,8 +10,31 @@ a. Number,
 ex:
  let num1 = 10;
  let num2 = 38.093
-b. Sting: 
+b. Sting:
+let firstName = "Ram"
+let address = "KTM"
+
+
+c. Boolen:-
+let isMarried = true
+let hasCar = false
+
+d. Undeined: - 
+If a variable is declared and value is not assigned at that time that time it holds undefined datatype;
+let age;
+console.log(age);
+
+e. null:-
+It is an object with all properties set as null
+let age = null
+
+f. Symbol:-
+Symbols are used for unique values
+let id = Symbol(1)
 */
 
 
 //2 Non-Premative Data Types: These data types do not hold a value directly within their variable and need to be referenced by another object.
+
+let id = Symbol(1)
+console.log(id);

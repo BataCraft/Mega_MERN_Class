@@ -31,10 +31,24 @@ let age = null
 f. Symbol:-
 Symbols are used for unique values
 let id = Symbol(1)
+
+g. bigint:-
+BigInt is used when you want to store large numbers like 10000000000000000
+let largeNUm = 10n
+
 */
 
 
-//2 Non-Premative Data Types: These data types do not hold a value directly within their variable and need to be referenced by another object.
+//2 Non-Premative(Refrenced) Data Types: These data types do not hold a value directly within their variable and need to be referenced by another object.
+
+//a. Array
+
+let a = [1, 2, 3, 4, 5]
+console.log(typeof (a));
+//b. Object
 
 let id = Symbol(1)
 console.log(id);
+
+let largeNUm = 10n
+console.log(typeof(largeNUm));

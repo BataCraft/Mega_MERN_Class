@@ -6,12 +6,22 @@
     <title>JS</title>
 </head>
 <body>
-    <h1>Check Your Console</h1>
+    
 
 
 
 
 
-    <script src="./index.js"></script>
+    <!-- <script src="./index.js"></script> -->
+    <!-- <script src="./Day_02/Operators.js"></script> -->
+    <script>
+        let Principle = parseInt (prompt ("Enter the Principle:"))
+        let rate = Number(prompt ("Enter the rate:"))
+        let time = +prompt("Enter the time in years:")
+        let SI = Principle * time * rate /100;
+        let ammount = SI + Principle
+        document.write(`The Ammount is ${ammount}. when principle is ${SI}, time is ${time} years and rate is ${rate}`)
+        
+    </script>
 </body>
 </html>

@@ -43,6 +43,8 @@ let largeNUm = 10n
 
 //a. Array
 
+/*
+
 let a = [1, 2, 3, 4, 5]
 console.log(typeof (a));
 //b. Object
@@ -51,4 +53,11 @@ let id = Symbol(1)
 console.log(id);
 
 let largeNUm = 10n
-console.log(typeof(largeNUm));
+console.log(typeof (largeNUm));
+*/
+
+let arr1 = [ 1, 2, 3]
+let arr2 = [...arr1]
+arr2.push(4)
+console.log("Original array", arr1);
+console.log(arr2);

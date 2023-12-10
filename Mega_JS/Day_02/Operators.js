@@ -23,8 +23,32 @@ console.log(`The sum of ${num1} + ${num2} is ${num1 + num2} `);
 console.log(typeof NaN);
 
 // 2. Comparison (Relational) Operators,
-// 3. Assignment Operatos,
-// 4 logical Operator,
+//-------------> operator: Comparison operator is used to compare two operands, It returns true  or false based on the comparsion 
+//a.  Greater than (>)
+//b.  Less than (<)
+//c.  Greater than or equal to (>=)
+//d. less than equalto (<=)
+//e. Equal to (==)
+//f. Not equal to (!=)
+//g. strict equalto (===)
+
+//
+// 3. Assignment Operatos, -----> This operators is used to assign the value to a variable...
+//---- = -> assigns the value in variable
+//---- += -> adds the value to the variable
+//---- -= -> subtracts the value from the variable
+//---- *= -> multiplies the value with the variable
+//---- /= -> divides the value with the variable
+//---- %= -> modulus the value with the variable
+
+// 4. Logical Operators,
+//a. AND Operator (&&) -----> it combains two or more boolens values and  expression and returns true if at  all of them are true and false if all of them are false.
+
+//b. OR Operator (||) -----> it combains two or more boolens values and  expression and returns true if at least one of them are true and false if all of them are false.
+
+//c. NOT Operator (!) -----> it is a unary logical operaotor that inverts the boolean value or expresions.
+
+
 // 5. Special Operatos.
 
 

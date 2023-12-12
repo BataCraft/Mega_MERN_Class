@@ -43,11 +43,14 @@ console.log(typeof NaN);
 
 // 4. Logical Operators,
 //a. AND Operator (&&) -----> it combains two or more boolens values and  expression and returns true if at  all of them are true and false if all of them are false.
+console.log(9 >=10 && 5>=5 && 3>10);
 
 //b. OR Operator (||) -----> it combains two or more boolens values and  expression and returns true if at least one of them are true and false if all of them are false.
+console.log(9 >=10 || 5>=5 || 3>10);
 
 //c. NOT Operator (!) -----> it is a unary logical operaotor that inverts the boolean value or expresions.
 
+// console.log(9 >=7 || 5>=5 || 3>10);
 
 // 5. Special Operatos.
 

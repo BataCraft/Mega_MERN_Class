@@ -9,6 +9,6 @@ BIM2
 BIM1 = MarksW / MarksH ** 2;
 BIM2 = JohnW / JohnH ** 2;
 
-// task1
-let BIM = (BIM1 >= BIM2) ? "Mark's BMI is higher than John's!" : "Mark's BMI is higher than John's!"
+
+let BIM = (BIM1 >= BIM2) ? `${markBmi}Mark's BMI is higher than John's!` : `${johnBmi}jhons's BMI is higher than mark's!`
 console.log(BIM);

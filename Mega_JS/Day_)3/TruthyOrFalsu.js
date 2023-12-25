@@ -26,9 +26,9 @@
 // // age >= 18 && console.log('Go Voting in mangshir 29');
 
 // // Using OR Operators:
-// let firstName = 'Ram'
-// let lastName = 'Thapa'
-// let username = null
+let firstName = 'Ram'
+let lastName = 'Thapa'
+let username = null
 
 // // Displaying user name on Screen
 // // if (username)
@@ -40,3 +40,41 @@
 // // }
 // username = username || `${firstName}${lastName}${Date.now()}`
 // console.log(`Welcome ${username}`);
+
+
+// Guard Clasue using NOT operator
+// if (!username)
+// {
+//     username = prompt ('please enter your username')
+// }
+// document.write(`Welcome ${username}`)
+
+//WAP to check whether  Nepal Mega BCA is  opened or Closed.
+// Condition: 
+/*
+    College time: 10 to 17 (While Definig variable for it keep time in 24 hrs format for simplicity)
+    College is closed on weekend
+    College is closed on holidays
+
+     */
+
+    // let CollegeTime = 10
+    isSaturday = false
+    isHoliday = false
+    let time = 20;
+    // if (time >= 10 && time <=17 && isSaturday=== false && isHoliday===false  )
+    // {
+    //     console.log(`College is opend`);
+    // }
+    
+    // else{
+    //     console.log(`closed`);
+    // }
+    
+if (time >= 10 && time >= 17 || isHoliday || isSaturday)
+{
+    console.log(`Closed`);
+}
+else{
+    console.log(`open`);
+}

@@ -53,6 +53,37 @@ console.log(9 >=10 || 5>=5 || 3>10);
 // console.log(9 >=7 || 5>=5 || 3>10);
 
 // 5. Special Operatos.
+//a. Ternery Operators: it is a short hand operator used instead of IF-Elase satement.
+// Syntax:
+// if conditon ? runs if condition is true : runs if the condition is false
+// Example
+var age = 15
+age >= 18 ? console.log("you are eligible to vote") : console.log("you can't vote")
+
+//Example 2:
+let message = age > 18 ? " you can enter the club" : "you can't enter the club"
+// console.log(message);
+
+//Nested Ternery Operators
+//Syntax: condition ? condition ? "True statement" : "false statement " : "statement if initial condtion is false"
+age > 18 ? isFemale ? "can get free drink" : ' can enter but NO FREE Drink' : " can't enter the club"
+
+//Nullish Coelscing Operators: If LHS value or expression is null or undefined, the RHS will be executed.
+
+let username = 0;
+// username ?? ("Plese enter your username")  (`welcome ${username}`)
 
 
-// Simple Intrest Soln
+//c. Unary Operator: Those operators which can carry out operator on single operands are called unary operators.
+//i. Increament Operators (++) : increment the value by 1
+//ii. Decrement Operator (--) : Decrement the value by 1
+//iii. Unary +
+let x = 5
+console.log(+x);
+
+//iv. Unary - or Negation Operator
+let y = 5
+console.log(-y);
+
+
+//v. typeof Operator

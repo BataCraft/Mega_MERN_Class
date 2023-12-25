@@ -10,6 +10,8 @@ KoalasScore3 = 123;
 let dolphineAv = (DolphinsScore1 + DolphinsScore2 + DolphinsScore3) / 3;
 let koalinAv = (KoalasScore1 + KoalasScore2 + KoalasScore3) / 3;
 // let finalScore = (dolphineAv > koalinAv) ? `${player1} Score is Higher Than ${player2}` : `${player2} Score is Greater than ${player2}`
+console.log(dolphineAv);
+console.log(koalinAv);
 
 // console.log(finalScore);
 
@@ -21,10 +23,15 @@ if (dolphineAv >= 100 && koalinAv >= 100)
     }
     else if(dolphineAv == koalinAv){
         console.log(`Match Draw`);
+
     }
     else{
         console.log(`${player2} Wins The Trophy`);
     }
-    // let finalScore = (dolphineAv > koalinAv) ? `${player1} Wins The Trophy` : `${player2} Wins The Trophy`
-    // console.log(finalScore);
+    
+}
+
+else if (dolphineAv <= 100 && koalinAv <= 100)
+{
+    console.log("Both Teams Have Lost");
 }

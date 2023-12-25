@@ -6,6 +6,7 @@ let johnHeight = 1.76
 // Calculate BMI for Mark and John
 let markBmi = markMass / (markHeight * markHeight)
 let johnBmi = johnMass / (johnHeight * johnHeight)
+// console.log(markBmi, johnBmi);
 let markHigherBMI = markBmi > johnBmi
 // // Determine whether Mark or John has a higher BMI, using if-else statements
 // if (markBmi >= johnBmi)

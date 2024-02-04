@@ -47,3 +47,32 @@ cities [6] = 'LTP'
 //Methods:
 // Methods are functions defined in an object 
 // Array methods: 
+// //.indexOf() -> it returns index of the element passed as an argument. If element doesn't exist it returns -1.
+// console.log(fruits.indexOf('apple'));
+// console.log(fruits.indexOf('onion'));
+
+// // .includes() -> It checks the existence of element in the array and returns bollean value
+// console.log(fruits.includes('banana')); // true or false
+// console.log(fruits.includes('ornage')); // true or false
+
+//ARRAYS THAT MUTATES THE ORIGINAL ARRAY.
+// .push() -> adds one or more elemnts to the end of the array
+
+
+let checkReturnsValueOFPUsh = fruits.push('grape', 'pomegranate', 'kiwi')
+console.log(fruits);
+console.log(checkReturnsValueOFPUsh);
+
+//.pop() ->remove one or more elements to the end of the array
+let removedElementUsingPop= brands.pop();
+console.log(removedElementUsingPop)
+console.log(brands);
+
+
+let removedElementUsingShift = brands.shift();
+console.log(removedUsingShift);
+console.log(brands);
+
+// unshift()
+brands.unshift('New Brand 1', 'New Brand 2');
+console.log(brands);

@@ -273,3 +273,74 @@
 // console.log(index);
 
 
+// Reduce methodL:
+// Reduce is the method of that can return any type of value. (Either primitive or non-premetive). it will reduce all elements in an arrat into a single value.
+
+// unlike map and fileter this method has two arugmenets. 
+// 1st --> callback function
+// 2nd --> Initial value of accumulator
+
+// The callback function in this mehotd has four parameters
+// 1st --> accumulator
+// 2nd --> current element
+// 3rd --> index
+// 4th --> array
+
+// Examlple -> Summming all elements in the array
+
+// let number = [10, 20, 30, 40, 50, 60]
+// for (i = 0; i=number.length; i++)
+// {
+//     let sum = 0;
+//     sum = sum + number[i]
+// }
+
+// console.log(sum);
+
+
+// let number = [10, 20, 30, 40, 50, 60]
+// let output = number.reduce((acc, curr) => acc + curr, 0)
+// console.log(output);
+
+// let salaries = [100, 20000, 43009, 12344, 34505, 60000, 1700, 8937636]
+// let avg = salaries.reduce((acc, cur,) => (acc + cur) ) / salaries.length
+// console.log(avg);
+
+// let salaries = [100, 20000, 43009, 12344, 34505, 60000, 1700, 8937636]
+// let output = salaries.reduce((acc, curr) => {
+
+//     if(curr < 17500)
+//     {
+
+//         let result =  `The salary is ${curr} is less than ${100 - ((curr / 17500) * 100)}% than average`
+//         acc.push(result)
+//     }
+
+// return acc
+
+// }, [])
+
+// console.log(output);
+
+
+// Create a functuon that take two parameterm word and letter respectively, The function should return the count letter persent in the word
+
+
+const letterCount = (word, letter) =>{
+
+{
+     arrletter = [...word]
+    let output = arrletter.reduce((acc, curr) => 
+    {
+        if(letter === curr)
+        {
+            acc++;
+          
+        }
+        return acc;
+    }, 0)
+    return `The word of ${word} is ${output}`
+}
+}
+
+console.log(letterCount('apple', 'a'));

@@ -329,7 +329,7 @@
 const letterCount = (word, letter) =>{
 
 {
-     arrletter = [...word]
+     let arrletter = [...word]
     let output = arrletter.reduce((acc, curr) => 
     {
         if(letter === curr)
@@ -339,8 +339,20 @@ const letterCount = (word, letter) =>{
         }
         return acc;
     }, 0)
-    return `The word of ${word} is ${output}`
+    return `The word of ${word} ${ output!== 1 ? "are" : "is"} ${output}`
 }
 }
 
-console.log(letterCount('apple', 'a'));
+console.log(letterCount('apple', 'e'));
+
+
+// by using split method:
+// Syntax
+// stging.split(separator)
+// Example:
+// let str = "Hello World"
+// let arrStr = str.split("")
+// let arrform = Array.from(str)
+
+// // console.log(arrStr); 
+// console.log(arrform); 
